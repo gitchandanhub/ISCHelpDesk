@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="257947" started-at="2020-07-29T22:10:10 PDT" finished-at="2020-07-29T22:14:28 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="257947" started-at="2020-07-29T22:10:10 PDT" finished-at="2020-07-29T22:14:28 PDT">
+      <class name="EEExecution.ExecuteCases">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:EEExecution.ExecuteCases@42607a4f]" name="Initialize" is-config="true" duration-ms="11749" started-at="2020-07-29T22:10:10 PDT" finished-at="2020-07-29T22:10:22 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="ValidateLogin()[pri:0, instance:EEExecution.ExecuteCases@42607a4f]" name="ValidateLogin" duration-ms="16473" started-at="2020-07-29T22:10:22 PDT" finished-at="2020-07-29T22:10:38 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogin -->
+        <test-method status="PASS" signature="newEvent()[pri:1, instance:EEExecution.ExecuteCases@42607a4f]" name="newEvent" duration-ms="10595" started-at="2020-07-29T22:10:38 PDT" finished-at="2020-07-29T22:10:49 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newEvent -->
+        <test-method status="PASS" signature="newTicket()[pri:2, instance:EEExecution.ExecuteCases@42607a4f]" name="newTicket" duration-ms="16990" started-at="2020-07-29T22:10:49 PDT" finished-at="2020-07-29T22:11:06 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTicket -->
+        <test-method status="PASS" signature="scheduling()[pri:3, instance:EEExecution.ExecuteCases@42607a4f]" name="scheduling" duration-ms="15275" started-at="2020-07-29T22:11:06 PDT" finished-at="2020-07-29T22:11:21 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduling -->
+        <test-method status="PASS" signature="createTicketFromTickettab()[pri:4, instance:EEExecution.ExecuteCases@42607a4f]" name="createTicketFromTickettab" duration-ms="15828" started-at="2020-07-29T22:11:21 PDT" finished-at="2020-07-29T22:11:37 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTicketFromTickettab -->
+        <test-method status="PASS" signature="createBilling()[pri:5, instance:EEExecution.ExecuteCases@42607a4f]" name="createBilling" duration-ms="17945" started-at="2020-07-29T22:11:37 PDT" finished-at="2020-07-29T22:11:55 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBilling -->
+        <test-method status="PASS" signature="addDevices()[pri:6, instance:EEExecution.ExecuteCases@42607a4f]" name="addDevices" duration-ms="13276" started-at="2020-07-29T22:11:55 PDT" finished-at="2020-07-29T22:12:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDevices -->
+        <test-method status="PASS" signature="createPassword()[pri:7, instance:EEExecution.ExecuteCases@42607a4f]" name="createPassword" duration-ms="8889" started-at="2020-07-29T22:12:08 PDT" finished-at="2020-07-29T22:12:17 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPassword -->
+        <test-method status="PASS" signature="createPurchaseOrder()[pri:8, instance:EEExecution.ExecuteCases@42607a4f]" name="createPurchaseOrder" duration-ms="20121" started-at="2020-07-29T22:12:17 PDT" finished-at="2020-07-29T22:12:37 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPurchaseOrder -->
+        <test-method status="PASS" signature="addNewcontact()[pri:9, instance:EEExecution.ExecuteCases@42607a4f]" name="addNewcontact" duration-ms="19151" started-at="2020-07-29T22:12:37 PDT" finished-at="2020-07-29T22:12:56 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewcontact -->
+        <test-method status="PASS" signature="generateReport()[pri:10, instance:EEExecution.ExecuteCases@42607a4f]" name="generateReport" duration-ms="8738" started-at="2020-07-29T22:12:56 PDT" finished-at="2020-07-29T22:13:05 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="PASS" signature="executeSystem()[pri:11, instance:EEExecution.ExecuteCases@42607a4f]" name="executeSystem" duration-ms="81680" started-at="2020-07-29T22:13:05 PDT" finished-at="2020-07-29T22:14:27 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeSystem -->
+        <test-method status="PASS" signature="logout()[pri:13, instance:EEExecution.ExecuteCases@42607a4f]" name="logout" duration-ms="51" started-at="2020-07-29T22:14:27 PDT" finished-at="2020-07-29T22:14:27 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:EEExecution.ExecuteCases@42607a4f]" name="closeApp" is-config="true" duration-ms="1036" started-at="2020-07-29T22:14:27 PDT" finished-at="2020-07-29T22:14:28 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- EEExecution.ExecuteCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

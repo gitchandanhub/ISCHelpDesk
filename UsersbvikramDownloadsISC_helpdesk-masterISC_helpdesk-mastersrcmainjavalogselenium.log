@@ -1,0 +1,166 @@
+22:10:10,646 DEBUG InternalLoggerFactory:47 - Using Log4J as the default logging framework
+22:10:10,646 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+22:10:10,646 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+22:10:10,677 DEBUG PlatformDependent:987 - Platform: Windows
+22:10:10,692 DEBUG PlatformDependent0:396 - -Dio.netty.noUnsafe: false
+22:10:10,692 DEBUG PlatformDependent0:852 - Java version: 8
+22:10:10,692 DEBUG PlatformDependent0:121 - sun.misc.Unsafe.theUnsafe: available
+22:10:10,692 DEBUG PlatformDependent0:145 - sun.misc.Unsafe.copyMemory: available
+22:10:10,692 DEBUG PlatformDependent0:183 - java.nio.Buffer.address: available
+22:10:10,692 DEBUG PlatformDependent0:244 - direct buffer constructor: available
+22:10:10,692 DEBUG PlatformDependent0:314 - java.nio.Bits.unaligned: available, true
+22:10:10,692 DEBUG PlatformDependent0:379 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+22:10:10,692 DEBUG PlatformDependent0:386 - java.nio.DirectByteBuffer.<init>(long, int): available
+22:10:10,692 DEBUG PlatformDependent:1030 - sun.misc.Unsafe: available
+22:10:10,692 DEBUG PlatformDependent:1149 - -Dio.netty.tmpdir: C:\Users\bvikram\AppData\Local\Temp (java.io.tmpdir)
+22:10:10,692 DEBUG PlatformDependent:1228 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+22:10:10,692 DEBUG PlatformDependent:174 - -Dio.netty.maxDirectMemory: 947388416 bytes
+22:10:10,692 DEBUG PlatformDependent:181 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+22:10:10,708 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+22:10:10,708 DEBUG PlatformDependent:201 - -Dio.netty.noPreferDirect: false
+22:10:10,708 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@477b4cdf
+22:10:10,723 DEBUG PlatformDependent:891 - org.jctools-core.MpscChunkedArrayQueue: available
+22:10:11,161 DEBUG JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+22:10:11,161 DEBUG JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+22:10:11,192 DEBUG InternalThreadLocalMap:54 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+22:10:11,192 DEBUG InternalThreadLocalMap:57 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+22:10:11,192 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 4
+22:10:11,208 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+22:10:11,208 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+22:10:11,255 DEBUG PooledByteBufAllocator:142 - -Dio.netty.allocator.numHeapArenas: 4
+22:10:11,255 DEBUG PooledByteBufAllocator:143 - -Dio.netty.allocator.numDirectArenas: 4
+22:10:11,255 DEBUG PooledByteBufAllocator:145 - -Dio.netty.allocator.pageSize: 8192
+22:10:11,255 DEBUG PooledByteBufAllocator:150 - -Dio.netty.allocator.maxOrder: 11
+22:10:11,255 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.chunkSize: 16777216
+22:10:11,255 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.tinyCacheSize: 512
+22:10:11,255 DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.smallCacheSize: 256
+22:10:11,255 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.normalCacheSize: 64
+22:10:11,255 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+22:10:11,255 DEBUG PooledByteBufAllocator:159 - -Dio.netty.allocator.cacheTrimInterval: 8192
+22:10:11,255 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+22:10:11,255 DEBUG PooledByteBufAllocator:161 - -Dio.netty.allocator.useCacheForAllThreads: true
+22:10:11,255 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+22:10:11,286 DEBUG ByteBufUtil:85 - -Dio.netty.allocator.type: pooled
+22:10:11,286 DEBUG ByteBufUtil:94 - -Dio.netty.threadLocalDirectBufferSize: 0
+22:10:11,286 DEBUG ByteBufUtil:97 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+22:10:12,395 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 12740 (auto-detected)
+22:10:12,395 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+22:10:12,395 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+22:10:12,442 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+22:10:12,442 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+22:10:12,505 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 00:27:0e:ff:fe:28:ec:02 (auto-detected)
+22:10:12,598 DEBUG AbstractByteBuf:62 - -Dio.netty.buffer.checkAccessible: true
+22:10:12,598 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkBounds: true
+22:10:12,598 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@36e8973d
+22:10:12,645 DEBUG Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+22:10:12,645 DEBUG Recycler:97 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+22:10:12,645 DEBUG Recycler:98 - -Dio.netty.recycler.linkCapacity: 16
+22:10:12,645 DEBUG Recycler:99 - -Dio.netty.recycler.ratio: 8
+22:10:15,875 DEBUG ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0xe567144df02a589c
+22:10:22,285  INFO devpinoyLogger:20 - username Entered
+22:10:22,457  INFO devpinoyLogger:26 - password Entered
+22:10:24,458  INFO devpinoyLogger:32 - login button clicked
+22:10:38,751  INFO devpinoyLogger:77 - Clicked on New for Event
+22:10:42,732  INFO devpinoyLogger:25 - Subject Entered
+22:10:43,123  INFO devpinoyLogger:33 - Description Entered
+22:10:44,139  INFO devpinoyLogger:68 - Location entered isNoida
+22:10:44,507  INFO devpinoyLogger:74 - Location entered is7/26/20
+22:10:44,818  INFO devpinoyLogger:80 - Location entered is1:30 AM
+22:10:45,137  INFO devpinoyLogger:86 - Location entered is7/28/20
+22:10:45,405  INFO devpinoyLogger:80 - Location entered is2:30 PM
+22:10:50,499  INFO devpinoyLogger:67 - Clicked on New for Service Ticket
+22:10:54,846  INFO devpinoyLogger:25 - message entered
+22:10:55,156  INFO devpinoyLogger:31 - message entered
+22:10:56,573  INFO devpinoyLogger:60 - Company Selected
+22:10:56,977  INFO devpinoyLogger:50 - User Selected
+22:10:57,314  INFO devpinoyLogger:69 - Service Selected
+22:10:57,596  INFO devpinoyLogger:78 - Priority Selected
+22:11:01,042  INFO devpinoyLogger:36 - Clicked on Submit
+22:11:07,669  INFO devpinoyLogger:22 - Scheduling Tab Clicked
+22:11:16,441  INFO devpinoyLogger:25 - Subject Entered
+22:11:16,659  INFO devpinoyLogger:33 - Description Entered
+22:11:17,530  INFO devpinoyLogger:68 - Location entered isNoida
+22:11:17,878  INFO devpinoyLogger:74 - Location entered is7/27/20
+22:11:18,171  INFO devpinoyLogger:80 - Location entered is2:30 AM
+22:11:18,455  INFO devpinoyLogger:86 - Location entered is7/29/20
+22:11:18,739  INFO devpinoyLogger:80 - Location entered is3:30 PM
+22:11:22,763  INFO devpinoyLogger:27 - Tickets Tab Clicked
+22:11:27,327  INFO devpinoyLogger:25 - message entered
+22:11:27,574  INFO devpinoyLogger:31 - message entered
+22:11:27,910  INFO devpinoyLogger:60 - Company Selected
+22:11:28,198  INFO devpinoyLogger:50 - User Selected
+22:11:28,487  INFO devpinoyLogger:69 - Service Selected
+22:11:28,755  INFO devpinoyLogger:78 - Priority Selected
+22:11:32,130  INFO devpinoyLogger:36 - Clicked on Submit
+22:11:38,420  INFO devpinoyLogger:32 - Billing Tab Clicked
+22:11:39,630  INFO devpinoyLogger:23 - Clciked on Add button
+22:11:42,972  INFO devpinoyLogger:30 - date entered
+22:11:57,113  INFO devpinoyLogger:37 - Devices Tab Clicked
+22:11:57,416  INFO devpinoyLogger:24 - Adding device started
+22:12:03,161  INFO devpinoyLogger:97 - Device add success
+22:12:06,512  INFO devpinoyLogger:17 - DashBoard Tab Clicked
+22:12:09,487  INFO devpinoyLogger:42 - passwords Tab Clicked
+22:12:18,318  INFO devpinoyLogger:47 - Purchases Tab Clicked
+22:12:35,554  INFO devpinoyLogger:17 - DashBoard Tab Clicked
+22:12:38,453  INFO devpinoyLogger:52 - Contacts Tab Clicked
+22:12:39,817  INFO devpinoyLogger:17 - Adding contact started
+22:12:54,708  INFO devpinoyLogger:17 - DashBoard Tab Clicked
+22:12:57,788  INFO devpinoyLogger:57 - Reports Tab Clicked
+22:13:09,275  INFO devpinoyLogger:62 - Systems Tab Clicked
+22:14:25,123  INFO devpinoyLogger:17 - DashBoard Tab Clicked
+22:14:27,262 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+22:14:27,263 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+22:14:27,266 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+22:14:27,266 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/bvikram/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+22:14:27,942 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+22:14:27,958 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+22:14:27,958 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+22:14:27,958 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/bvikram/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+22:14:27,958 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+22:14:27,958 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+22:14:27,958 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+22:14:27,958 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/bvikram/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+22:14:27,974 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+22:14:27,974 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+22:14:27,974 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+22:14:27,974 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/bvikram/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+22:14:27,989 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+22:14:27,989 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+22:14:28,005 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+22:14:28,005 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/bvikram/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+22:14:28,021 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+22:14:28,021 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+22:14:28,021 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+22:14:28,021 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/bvikram/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+22:14:28,067 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+22:14:28,067 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+22:14:28,067 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+22:14:28,083 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+22:14:28,083 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+22:14:28,083 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+22:14:28,083 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+22:14:28,099 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+22:14:28,099 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+22:14:28,099 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+22:14:28,099 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+22:14:28,099 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+22:14:28,099 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+22:14:28,099 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+22:14:28,114 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+22:14:28,114 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/bvikram/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+22:14:28,114 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+22:14:28,114 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+22:14:28,114 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+22:14:28,114 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/bvikram/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+22:14:28,146 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+22:14:28,146 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+22:14:28,146 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+22:14:28,146 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/bvikram/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+22:14:28,146 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+22:14:28,146 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+22:14:28,146 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+22:14:28,146 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/bvikram/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+22:14:28,194 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+22:14:28,195 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+22:14:28,195 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+22:14:28,196 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/bvikram/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
